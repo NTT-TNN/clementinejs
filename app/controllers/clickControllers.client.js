@@ -4,7 +4,7 @@
   var addButton = document.querySelector('.btn-add');
   var deleteButton = document.querySelector('.btn-delete');
   var clickNbr = document.querySelector('#click-nbr');
-  var apiUrl = 'http://localhost:3000/api/clicks';
+  var apiUrl = 'https://clementinejs-ntttnn.herokuapp.com/api/clicks';
 
   function ready (fn) {
       if (typeof fn !== 'function') {
